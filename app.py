@@ -2,7 +2,7 @@ import base64
 import glob
 import os
 import time
-from gTTS import gTTS
+from gtts import gTTS
 from PIL import Image
 import streamlit as st
 
