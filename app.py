@@ -205,7 +205,7 @@ with col_main:
 with col_preview:
     st.subheader("🖼️ Arte de Portada")
     try:
-        image = Image.open("gato_raton.png")
+        image = Image.open("Fantasma_chida.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🎨 *Coloca 'gato_raton.png' en el directorio para previsualizar el arte.*")
